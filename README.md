@@ -4,12 +4,31 @@ Descrição do Projeto: API para criação e consulta de Personagens no anime On
 
 Nome dos Desenvolvedores e RA (0.5 ponto): Lucas Muner Garcia RE - 202123020
 
-Tecnologia Empregada:  
-JPA (Java Persistence API): Utilizada para mapeamento objeto-relacional no Java. Ela simplifica o processo de interação com bancos de dados relacionais.
-Lombok: Uma biblioteca do Java que ajuda a reduzir a quantidade de código boilerplate (código repetitivo e de suporte) necessário em classes, como getters, setters, construtores, etc. Através de anotações, o Lombok gera automaticamente esse código durante a compilação.
-Spring Boot: Um framework baseado em Spring que simplifica o desenvolvimento de aplicativos Java. Ele inclui convenções sensíveis para configuração, o que significa que você pode começar rapidamente com configurações mínimas.
-Jakarta Persistence (anteriormente Java EE): Uma especificação que descreve o gerenciamento de persistência de dados no Java. O JPA é uma parte fundamental das tecnologias Java EE (e agora Jakarta EE) para trabalhar com bancos de dados relacionais.
-Para testes foi utilizado o Postman.
+
+Tecnologias Empregadas:
+JPA (Java Persistence API):
+Descrição: Utilizada para mapeamento objeto-relacional no Java. Facilita a persistência de objetos Java em bancos de dados relacionais.
+Benefícios: Simplifica operações de banco de dados, proporciona uma abstração de nível mais alto e reduz a quantidade de código necessário para interagir com o banco de dados.
+
+Lombok:
+Descrição: Biblioteca Java que reduz a quantidade de código boilerplate em classes, como getters, setters e construtores, através de anotações. O código é gerado automaticamente durante a compilação.
+Benefícios: Melhora a legibilidade do código, reduz a repetição de código e agiliza o desenvolvimento.
+
+Spring Boot:
+Descrição: Framework baseado em Spring que simplifica o desenvolvimento de aplicativos Java. Oferece configurações sensíveis por padrão, permitindo que os desenvolvedores iniciem rapidamente com o mínimo de configurações.
+Benefícios: Facilita o desenvolvimento, proporciona convenções sensíveis, oferece configuração automática e é altamente modular.
+
+Jakarta Persistence (anteriormente Java EE):
+Descrição: Especificação que descreve o gerenciamento de persistência de dados no Java. JPA é uma parte fundamental das tecnologias Java EE (agora Jakarta EE) para trabalhar com bancos de dados relacionais.
+Benefícios: Fornece uma API padrão para mapeamento objeto-relacional, simplificando o desenvolvimento de aplicações Java que interagem com bancos de dados.
+
+H2 Database:
+Descrição: Banco de dados relacional escrito em Java, frequentemente usado como banco de dados temporário durante o desenvolvimento.
+Benefícios: Fácil de configurar, é incorporado no projeto, permite acesso rápido ao console para visualização do estado do banco de dados durante o desenvolvimento.
+
+Postman:
+Descrição: Ferramenta utilizada para testar APIs RESTful. Permite enviar solicitações HTTP para o seu servidor e receber as respostas, facilitando o teste de endpoints e a verificação do comportamento da API.
+Benefícios: Oferece uma interface gráfica amigável para testar APIs, suporta diferentes tipos de solicitações (GET, POST, PUT, DELETE, etc.) e permite a automação de testes.
 
 Arquitetura: 
 
